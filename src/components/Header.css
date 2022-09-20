@@ -1,0 +1,26 @@
+:root {
+    --salmon: #ff5f61;
+}
+header {
+    position: relative;
+    height: 68px;
+}
+#headerLogo {
+    width: 210px;
+    height: 68px;
+}
+.nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--salmon);
+}
+.nav a.active {
+    text-decoration: underline;
+    color: var(--salmon);
+}

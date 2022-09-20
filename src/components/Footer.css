@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#footerLogo {
+    width: 122px;
+    height: 40px;
+    margin-left: calc(50% - 61px);
+    margin-top: 20px;
+}
+footer p {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}

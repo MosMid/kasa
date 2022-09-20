@@ -1,0 +1,49 @@
+.card {
+    width: 28%;
+    padding-top: 28%;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.imageContainer {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.imageContainer:after {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 90%;
+    background: linear-gradient(to bottom, transparent 70%, black 100%);
+  }
+.cardPhoto {
+    z-index: 0;
+    height: 100%;
+    object-fit: cover;
+}
+.card p {
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    width: 90%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,21 @@
+#main404 {
+    color: #FF6060;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#error404 {
+    font-size: 263px;
+    font-weight: 700;
+}
+#errorMessage {
+    font-size: 36px;
+    font-weight: 500;
+}
+#homeLink {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+}
