@@ -1,12 +1,48 @@
-h1 {
+:root {
+    --salmon: #FF6060;
+}
+#aboutMain {
+    margin-bottom: 30px;
+}
+#aboutMain img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+#aboutMain h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 142.6%;
-    /* or 34px */
-
     display: flex;
     align-items: center;
-
     color: #FFFFFF;
+    background-color: var(--salmon);
+}
+.aboutMain .collapsible {
+    margin-top: 20px;
+}
+.aboutMain .collapsible .header {
+    background-color: var(--salmon);
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.aboutMain .collapsible .content {
+    background-color: var(--salmon);
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    padding: 6px;
+    padding-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }

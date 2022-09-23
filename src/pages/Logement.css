@@ -1,0 +1,84 @@
+:root {
+    --salmon: #FF6060;
+    --background: #F6F6F6;
+}
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--salmon);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.infoLogement {
+    width: 65%;
+}
+.titreLogement {
+    font-size: 36px;
+}
+.location {
+    font-size: 18px;
+}
+.tags {
+    display: flex;
+}
+.tag {
+    height: 25px;
+    font-size: 14px;
+    background-color: var(--salmon);
+    color: white;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    border-radius: 10px;
+}
+.owner {
+    font-size: 18px;
+    font-weight: 500;
+    width: 25%;
+    text-align: right;
+    margin-top: 20px;
+}
+.ownerInfo {
+    display: flex;
+    justify-content: flex-end;
+}
+.ownerInfo img {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    margin-left: 20px;
+}
+.ownerInfo p {
+    word-spacing: 100vw;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 1px;
+}
+.salmonStar {
+    font-size: 25px;
+    color: #FF6060;
+    display: inline-block;
+}
+.greyStar {
+    font-size: 25px;
+    color: #E3E3E3;
+    display: inline;
+}
+.descriptionCollapsible, .equipmentCollapsible {
+    width: 45%;
+    font-size: 18px;
+}
+.mainLogement .collapsible .header {
+    border-radius: 10px;
+    font-weight: 500;
+}
+.mainLogement .collapsible .content {
+    font-weight: 400;
+}
+.equipmentCollapsible .content {
+    line-height: 18px;
+    padding-top: 2px;
+}
