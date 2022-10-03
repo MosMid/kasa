@@ -194,8 +194,7 @@ details[open] summary::after {
         padding-top: 40px;
     }
     .equipment {
-        margin-bottom: -30px;
-        padding-bottom: 20px;
+        margin-bottom: 0px;
     }
     .equipmentP {
         margin-right: 0;
