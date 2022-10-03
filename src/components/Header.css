@@ -24,3 +24,17 @@ header {
     text-decoration: underline;
     color: var(--salmon);
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: relative;
+        height: 47px;
+    }
+    #headerLogo {
+        width: 145px;
+        height: 47px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+}
