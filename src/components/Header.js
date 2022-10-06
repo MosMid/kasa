@@ -6,7 +6,7 @@ function Header(){
     return <header>
         <NavLink to="/"><img src={logo} alt="logo" id="headerLogo"/></NavLink>
         <div className="nav">
-            <NavLink to="/" end>Accueil</NavLink>
+            <NavLink to="/">Accueil</NavLink>
             <NavLink to="/about">A propos</NavLink>
         </div>
     </header>
