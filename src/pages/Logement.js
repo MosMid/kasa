@@ -4,6 +4,7 @@ import './Logement.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import  { faStar } from '@fortawesome/free-solid-svg-icons'
 import Gallery from '../components/Gallery'
+import Collapse from '../components/Collapse'
 
 function Logement(){
     const starIcon = <FontAwesomeIcon icon={faStar} />
@@ -30,14 +31,8 @@ function Logement(){
                             {[...Array(5-rating)].map((e, i) => <FontAwesomeIcon className='greyStar' key={i} icon={faStar} />)}
                         </div>
                     </div>
-                    <details>
-                        <summary>Description</summary>
-                        <p className='descriptionCollapsible'>{selected[0].description}</p>
-                    </details>
-                    <details>
-                        <summary>Equipement</summary>
-                        <p className='equipmentP'>{selected[0].equipments.map(equipment => <li key={equipment} className='equipment'>{equipment}</li>)}</p>
-                    </details>
+                    <div className='collapse'><Collapse summary="Description" content={selected[0].description}/></div>
+                    <div className='collapse'><Collapse summary="Equipement" content={selected[0].equipments.map(equipment => <li key={equipment} className='equipment'>{equipment}</li>)}/></div>
                 </div>
             </main>
     }else{
